@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "AI tic tac toe game",
   "main": "copy.js",
+  "homepage": "https://7erobatman.github.io/gametictac",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dist"
   },
   "author": "Kumar Gourav",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^1.2.0"
+  }
 }
